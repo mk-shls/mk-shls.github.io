@@ -7,22 +7,18 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 .container {
   position: relative;
-}
-
-.container2 {
-  position: relative;
-}
-
-.container2 img {
-  width = 100%
+  max-width: 800px;
+  min-height: 400px;
 }
 
 #startup_text {
@@ -32,7 +28,7 @@ img {
   transform: translate(-50%,0%);
   text-align: center;
   color: white;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 #find_more_btn {
@@ -46,14 +42,5 @@ img {
   border-radius: 20px;
 }
 
-#mc-embedded-subscribe {
-  position: absolute;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%,0%);
-  color: white;
-  background: darkorange;
-  font-size: 0.75em;
-  border-radius: 20px;
-}
+
 
